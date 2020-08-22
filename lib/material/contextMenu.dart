@@ -1,3 +1,5 @@
+// Follow me @irangareddy for more
+
 import 'package:Flutter_UI_Components_Library/material/materialConstants.dart';
 import 'package:flutter/material.dart';
 
@@ -58,7 +60,6 @@ class _ContextMenuState extends State<ContextMenu> {
   }
 
 void showSnackBar(String choice) {
-
     final snackBarContent = SnackBar(
             content: Text('Selected: $choice',style: kBodyTextStyle,),
             action: SnackBarAction(
@@ -69,8 +70,6 @@ void showSnackBar(String choice) {
               },
             ),
           );
-
-
     _scaffoldkey.currentState.showSnackBar(snackBarContent);
   }
 }
@@ -89,8 +88,11 @@ class BodyWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        _selection != null ? Center(child: Text("Selected: $_selection",style: kBodyTextStyle,),) : Center(child: Text("Welcome to Flutter UI Components Library",style: kBodyTextStyle,),),
+        _selection != null ? 
+        Center(child: Text("Selected: $_selection",style: kBodyTextStyle,),) : 
+        Center(child: Text("Welcome to Flutter UI Components Library",style: kBodyTextStyle,),),
       ],
     );
   }
 }
+

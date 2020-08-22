@@ -1,4 +1,4 @@
-import 'package:Flutter_UI_Components_Library/material/contextMenu.dart';
+import 'package:Flutter_UI_Components_Library/material/carouselCardsList.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +11,7 @@ class OnePreview extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ContextMenu()
+      home: CarouselList()
     );
   }
 }
