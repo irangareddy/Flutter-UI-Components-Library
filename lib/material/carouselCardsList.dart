@@ -129,7 +129,7 @@ class CarouselList extends StatefulWidget {
 }
 
 class _CarouselListState extends State<CarouselList> {
-  List<Container> indicators = [];
+  // List<Container> indicators = [];
   int currentPage = 0;
 
   Widget updateIndicators() {

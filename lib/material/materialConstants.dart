@@ -15,6 +15,16 @@ const kPrimaryLabelColor = Color(0xFF242629);
 const kSecondaryLabelColor = Color(0xFF797F8A);
 const kCourseElementIconColor = Color(0xFF17294D);
 
+
+
+var kBodyTextStyle = TextStyle(
+  fontFamily: Platform.isIOS ? 'SF Pro Text' : null,
+  fontWeight: FontWeight.normal,
+  color: Colors.white,
+  fontSize: 15.0,
+  
+  );
+
 var kCardDescriptionTextStyle = TextStyle(
   fontFamily: Platform.isIOS ? 'SF Pro Text' : null,
   fontWeight: FontWeight.normal,
