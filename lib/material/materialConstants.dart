@@ -61,3 +61,11 @@ var kSubtitleStyle = TextStyle(
   fontFamily: Platform.isIOS ? 'SF Pro Text' : null,
   decoration: TextDecoration.none,
 );
+
+var kActionTextStyle = TextStyle(
+  fontSize: 15.0,
+  color: kPrimaryColor,
+  fontWeight: FontWeight.w600,
+  fontFamily: Platform.isIOS ? 'SF Pro Text' : null,
+  decoration: TextDecoration.none,
+);
