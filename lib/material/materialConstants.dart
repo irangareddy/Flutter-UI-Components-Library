@@ -69,3 +69,18 @@ var kActionTextStyle = TextStyle(
   fontFamily: Platform.isIOS ? 'SF Pro Text' : null,
   decoration: TextDecoration.none,
 );
+
+var kLargeTitleStyle = TextStyle(
+  fontSize: 28.0,
+  fontWeight: FontWeight.bold,
+  color: kPrimaryLabelColor,
+  fontFamily: Platform.isIOS ? 'SF Pro Text' : null,
+  decoration: TextDecoration.none,
+);
+var kTitle1Style = TextStyle(
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+  color: kPrimaryLabelColor,
+  fontFamily: Platform.isIOS ? 'SF Pro Text' : null,
+  decoration: TextDecoration.none,
+);
